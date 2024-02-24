@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="css/fontawe
+    some.min.css"> -->
+        <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+        <link rel="stylesheet" href="../css/signup-style.css">
+    </head>
+    <body class="bg-darkblue">
+        <div id="container" class="d-flex justify-content-center">
+            <div class="container d-flex justify-content-center text-center">
+                <div class="w-75 bg-darkblue shadow-lg p-5 mt-5">
+                        <h1 class="mb-4">Smart Sign Up System</h1>
+                        <div><input class="bg-darkblue form-control " type="text" id="signUpName" placeholder="Enter your Name"></div>
+                        <div id="nameGuide" class="w-100 bg-danger d-none "><p class="text-white">"Ahmed" Or "ahmed" | Min='3Char' | Max='15Char'</p></div>
+                        <div><input class="bg-darkblue form-control  mt-4" type="text" id="signUpEmail" placeholder="Enter your Email"></div>
+                        <div id="emailGuide" class="w-100 bg-danger d-none "><p class="text-white">You Should write Your Mail Like "Mok@gmail.com"</p></div>
+                        <div><input class="bg-darkblue form-control mt-4 text-white" type="password" id="signUpPassword" placeholder="Enter your Password"></div>
+                        <div id="passwordGuide" class="w-100 bg-danger d-none "><p class="text-white">Frist 1 Letter UpperCase -> next 1-5 Letter LowerCase -> next 3-5 Letter should be Digits <br> "Mm123456"</p></div>
+                        <p class="text-danger mt-3 d-none"> Please Enter Correct Data</p>
+                        <a id="signUpCompleteButton"   class="mt-4 rounded-2 bg-transparent text-center ">Sign Up</a>
+                        <p id="signUpGuide" class="text-danger mt-3 d-none"> Please Enter Correct Data</p>
+                    </div>
+            </div>
+        </div>
+        <script  src="../js/signup-js.js"></script>
+    </body>
+</html>

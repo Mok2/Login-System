@@ -1,0 +1,29 @@
+.bg-darkblue{
+    background-color: #24353F;
+}
+::placeholder{
+    color: white !important;
+}
+h1{
+    color: #17A2B8;
+    font-weight: 400;
+}
+input{
+    color: white !important;
+    background-color: transparent !important ;
+}
+#loginCompleteButton{
+    text-decoration: none;
+    display: block;
+    padding: 6px 12px;
+    color: #17A2B8;
+    width: 100%;
+    border: #17A2B8 solid 1px ;
+    transition: .3s;
+
+}
+#loginCompleteButton:hover{
+    color: white;
+    background-color: #17A2B8 !important;
+
+}

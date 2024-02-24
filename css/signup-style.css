@@ -1,0 +1,48 @@
+::placeholder{
+    color: white !important;
+}
+.bg-darkblue{
+    background-color: #24353F;
+}
+h1{
+    color: #17A2B8;
+    font-weight: 400;
+}
+input{
+    color: white !important;
+    background-color: transparent !important ;
+}
+#loginBtn{
+    color: #17A2B8;
+    border-color: #17A2B8 !important;
+    transition: .3s;
+}
+#loginBtn:hover{
+    background-color: #17A2B8 !important;
+    color: #fff;
+}
+
+#signUpButton{
+    color: #17A2B8;
+    border-color: #17A2B8 !important;
+    transition: .3s;
+}
+#signUpButton:hover{
+    background-color: #17A2B8 !important;
+    color: #fff;
+}
+#signUpCompleteButton{
+    text-decoration: none;
+    display: block;
+    padding: 6px 12px;
+    color: #17A2B8;
+    width: 100%;
+    border: #17A2B8 solid 1px ;
+    transition: .3s;
+
+}
+#signUpCompleteButton:hover{
+    color: white;
+    background-color: #17A2B8 !important;
+
+}
